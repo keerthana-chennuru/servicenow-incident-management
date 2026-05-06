@@ -1,1 +1,2 @@
-
+// UI Action Script
+action.setRedirectURL('u_poc_change_table_list.do');
