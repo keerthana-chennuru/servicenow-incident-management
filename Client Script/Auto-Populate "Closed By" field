@@ -1,1 +1,10 @@
+// Client Script: "Closed by" | Type: onChange | Field: State
 
+function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    if (newValue == '7') {
+        g_form.setValue('u_closed_by', g_user.userID);
+    }
+}
