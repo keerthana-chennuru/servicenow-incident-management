@@ -1,3 +1,6 @@
+// > ✅ When `State = Closed (value 7)` → `Closed By = current logged-in user` automatically.
+
+
 // Client Script: "Closed by" | Type: onChange | Field: State
 
 function onChange(control, oldValue, newValue, isLoading, isTemplate) {
